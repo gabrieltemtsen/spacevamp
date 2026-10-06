@@ -101,26 +101,24 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/5 p-1 border border-amber-500/30 group-hover:border-amber-400 transition-colors">
+            <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-amber-500/10 p-1 border border-amber-500/40 group-hover:border-amber-400 transition-colors shrink-0">
               <Image 
                 src="/logos/spacevamp-symbol-circle.png" 
                 alt="Spacevamp Emblem" 
-                width={40} 
-                height={40} 
+                width={36} 
+                height={36} 
                 className="w-full h-full object-contain"
                 priority
               />
             </div>
-            <div className="flex flex-col">
-              <div className="relative h-6 w-36 sm:w-44">
-                <Image 
-                  src="/logos/spacevamp-logo-light.png" 
-                  alt="Spacevamp Designs Limited" 
-                  fill
-                  className="object-contain object-left"
-                  priority
-                />
-              </div>
+            <div className="relative h-7 sm:h-8 w-44 sm:w-52">
+              <Image 
+                src="/logos/spacevamp-wordmark-white.png" 
+                alt="Spacevamp Designs Limited" 
+                fill
+                className="object-contain object-left"
+                priority
+              />
             </div>
           </Link>
 
