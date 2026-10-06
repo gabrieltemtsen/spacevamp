@@ -99,22 +99,12 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-amber-500/10 p-1 border border-amber-500/40 group-hover:border-amber-400 transition-colors shrink-0">
-              <Image 
-                src="/logos/spacevamp-symbol-circle.png" 
-                alt="Spacevamp Emblem" 
-                width={36} 
-                height={36} 
-                className="w-full h-full object-contain"
-                priority
-              />
-            </div>
-            <div className="relative h-7 sm:h-8 w-44 sm:w-52">
+          {/* Logo - Option A: Wordmark Only */}
+          <Link href="/" className="flex items-center group py-0.5">
+            <div className="relative h-8 sm:h-9 w-52 sm:w-60 transition-opacity group-hover:opacity-90">
               <Image 
                 src="/logos/spacevamp-wordmark-white.png" 
-                alt="Spacevamp Designs Limited" 
+                alt="Spacevamp Designs Limited - Interior Design | Bespoke Furniture" 
                 fill
                 className="object-contain object-left"
                 priority

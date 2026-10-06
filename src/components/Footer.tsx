@@ -29,20 +29,11 @@ export default function Footer() {
           
           {/* Brand Info (Col 1-5) */}
           <div className="lg:col-span-5 space-y-5">
-            <div className="flex items-center gap-3">
-              <div className="relative w-9 h-9 rounded-full bg-amber-500/10 p-1 border border-amber-500/40 shrink-0">
-                <Image 
-                  src="/logos/spacevamp-symbol-circle.png" 
-                  alt="Spacevamp" 
-                  width={36} 
-                  height={36} 
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="relative h-8 w-48 sm:w-56">
+            <div className="flex items-center">
+              <div className="relative h-9 sm:h-10 w-56 sm:w-64">
                 <Image 
                   src="/logos/spacevamp-wordmark-white.png" 
-                  alt="Spacevamp Designs Limited" 
+                  alt="Spacevamp Designs Limited - Interior Design | Bespoke Furniture" 
                   fill
                   className="object-contain object-left"
                 />

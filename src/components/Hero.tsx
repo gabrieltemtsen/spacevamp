@@ -140,16 +140,17 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
 
                 {/* Corner emblem stamp */}
-                <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md border border-white/20 p-2 rounded-xl flex items-center gap-2">
-                  <Image
-                    src="/logos/spacevamp-symbol-circle.png"
-                    alt="Spacevamp Mark"
-                    width={28}
-                    height={28}
-                    className="w-7 h-7 object-contain"
-                  />
-                  <span className="text-[11px] font-bold tracking-wider text-amber-400 uppercase pr-1">
-                    Authentic Joinery
+                <div className="absolute top-4 right-4 bg-black/70 backdrop-blur-md border border-white/20 px-3 py-1.5 rounded-xl flex items-center gap-2.5">
+                  <div className="relative h-4 w-24">
+                    <Image
+                      src="/logos/spacevamp-wordmark-white.png"
+                      alt="Spacevamp"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <span className="text-[10px] font-bold tracking-wider text-amber-400 uppercase border-l border-white/20 pl-2">
+                    Direct Joinery
                   </span>
                 </div>
 
